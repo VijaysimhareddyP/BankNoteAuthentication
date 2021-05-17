@@ -1,8 +1,8 @@
 Flask==1.1.1
 numpy
 pandas
-sklearn==0.0
-scikit-learn==0.23.1
+sklearn
+scikit-learn
 itsdangerous==1.1.0
 jinja2==2.11.1
 MarkupSafe==1.1.1
