@@ -53,31 +53,31 @@
    </div>
 
      <!-- Main Input For Receiving Query to our ML -->
- <form action="{{url_for('predict')}}"method="post">
+ <form action="{{url_for('predict')}}" method="post">
    
   <div class="form-group">
     <div class="small-heading">
     <label for="formGroupExampleInput">VARIANCE</label>
     </div>
-    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter the Variance of Note">
+    <input type="text" name="variance" class="form-control" id="formGroupExampleInput" placeholder="Enter the Variance of Note">
   </div>
   <div class="form-group">
     <div class="small-heading">
     <label for="formGroupExampleInput2">SKEWNESS</label>
     </div>
-    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter the Skewness of Note">
+    <input type="text" name="skewness" class="form-control" id="formGroupExampleInput2" placeholder="Enter the Skewness of Note">
   </div>
    <div class="form-group">
      <div class="small-heading">
     <label for="formGroupExampleInput">CURTOSIS</label>
      </div>
-    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter the Curtosis of Note">
+    <input type="text" name="curtosis" class="form-control" id="formGroupExampleInput" placeholder="Enter the Curtosis of Note">
   </div>
   <div class="form-group">
     <div class="small-heading">
     <label for="formGroupExampleInput2">ENTROPY</label>
     </div>
-    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter the Entropy of Note">
+    <input type="text" name="entropy" class="form-control" id="formGroupExampleInput2" placeholder="Enter the Entropy of Note">
   </div>
    <div class="bbutton">
   <button type="submit" class="btn btn-outline-warning">Predict</button>
